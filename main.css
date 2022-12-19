@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    height: 500px;
+    margin: 100px auto;
+    box-shadow: 0 0 8px #ddd;
+    border: 1px solid #ddd;
+}
+
+.container h1 {
+    margin: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+
+}
+
+.options {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.option {
+    width: 200px;
+    height: 150px;
+    box-shadow: 0 0 8px #ddd;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
